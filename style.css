@@ -18,8 +18,39 @@ body{
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
-    height: 471px;
+    width: 265px;
+    height: 470px;
     background-size: cover;
 
+}
+
+section#redes{
+    text-align: right;
+}
+
+section#redes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.788);
+    box-sizing: border-box;
+}
+
+section#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.61);
+    transform: translate(-3px,-3px);
+    transition: 1s;
+}   
+
+@media(max-width: 500px)
+{
+    #tela{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-61%, -50%);
+        background: url('imagens/frame-iphone.png') no-repeat;
+        height: 627px;
+        width: 311px;
+    }
 }
